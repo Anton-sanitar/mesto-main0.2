@@ -1,0 +1,7 @@
+.card__like_activ {
+	background-image: url(../../../../images/likeBlack.svg);
+}
+
+.card__like_activ:hover {
+	opacity: 1;
+}
