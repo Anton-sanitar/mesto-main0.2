@@ -19,7 +19,16 @@ save.addEventListener('click', function () {
 	nameInput.textContent = formElementName.value;
 	jobInput.textContent = formElementJob.value;
 	modal.style.display = "none";
-});
+});   
+
+
+window.addEventListener('keydown', function(e) {
+    if (e.keyCode === 13) {
+      	nameInput.textContent = formElementName.value;
+		jobInput.textContent = formElementJob.value;
+		modal.style.display = "none";
+    }
+  }); 
 
 let edit = document.querySelector('.profile__edit');
 let modal = document.querySelector('.modal');
