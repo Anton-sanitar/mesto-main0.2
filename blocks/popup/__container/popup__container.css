@@ -1,4 +1,4 @@
-.modal__content {
+.popup__container {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 767px) {
  
-    .modal__content {
+    .popup__container {
         padding: 25px 22px;
         max-width: 282px;
     }

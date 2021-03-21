@@ -1,4 +1,4 @@
-.modal__save {
+.popup__save {
 	margin-top: 48px;
 	padding: 14px 0 18px;
 	color: #fff;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 767px) {
  
-    .modal__save {
+    .popup__save {
         margin-top: 45px;
     }
  

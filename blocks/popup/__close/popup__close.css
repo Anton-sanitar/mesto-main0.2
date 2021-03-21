@@ -1,5 +1,5 @@
-.modal__close {
-	background-image: url(../../../images/Vector1.svg); 
+.popup__close {
+	background-image: url(../../../images/Vector1.svg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: absolute;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 767px) {
  
-    .modal__close {
+    .popup__close {
         width: 26px;
         height: 26px;
         right: 0px;
