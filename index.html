@@ -10,13 +10,14 @@
 <body class="body">
 	<div class="page">
 		<header class="header">
-			<img class="logo logo_place_header" src="images/logo.svg" alt="Логотип">
+			<img class="logo" src="images/logo.svg" alt="Логотип">
 		</header>
 		<main class="main">
 			<section class="profile">
 				<img class="profile__image" src="images/image.jpg" alt="Лицо на фоне моря Жак-Ива Кусто">
 				<div class="profile__info">
-					<h1 class="profile__name">Жак-Ив Кусто</h1><button class="profile__edit link-effektt" type="button"></button>
+					<h1 class="profile__name">Жак-Ив Кусто</h1>
+					<button class="profile__edit link-effektt" type="button"></button>
 					<p class="profile__job">Исследователь океана</p>
 				</div>
 				<button class="profile__add link-effektt" type="button"><img src="images/Vector1.svg" alt="Белый крестик"></button>
@@ -26,42 +27,42 @@
 					<img class="card__image" src="images/kirill-pershin-1088404-unsplash.jpg" alt="Фото старого православного храма в горах">
 					<div class="card__info">
 						<h2 class="card__name">Карачаевск</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button> 
 					</div>
 				</div>
 				<div class="card">
 					<img class="card__image" src="images/kirill-pershin-1404681-unsplash.jpg" alt="Фото вершины горы Эльбрус из далека">
 					<div class="card__info">
 						<h2 class="card__name">Гора Эльбрус</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button>
 					</div>
 				</div>
 				<div class="card">
 					<img class="card__image" src="images/kirill-pershin-1556355-unsplash.jpg" alt="Фото вершины горы со снежной шапкой">
 					<div class="card__info">
 						<h2 class="card__name">Домбай</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button>
 					</div>
 				</div>
 				<div class="card">
 					<img class="card__image" src="images/kirill-pershin-1404681-unsplash.jpg" alt="Фото вершины горы Эльбрус из далека">
 					<div class="card__info">
 						<h2 class="card__name">Гора Эльбрус</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button>
 					</div>
 				</div>
 				<div class="card">
 					<img class="card__image" src="images/kirill-pershin-1556355-unsplash.jpg" alt="Фото вершины горы со снежной шапкой">
 					<div class="card__info">
 						<h2 class="card__name">Домбай</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button>
 					</div>
 				</div>
 				<div class="card">
 					<img class="card__image" src="images/kirill-pershin-1088404-unsplash.jpg" alt="Фото старого православного храма в горах">
 					<div class="card__info">
 						<h2 class="card__name">Карачаево-Черкесия</h2>
-						<div class="card__like link-effektt"></div>
+						<button class="card__like link-effektt"></button>
 					</div>
 				</div>
 			</section>
@@ -72,12 +73,12 @@
 	</div>
 	<div class="popup">
 		<div class="popup__container">
-			<span class="popup__close link-effektt"></span>
+			<button class="popup__close link-effektt"></button>
 			<h2 class="popup__title">Редактировать профиль</h2>
 			<form class="popup__form">
-                <input type="text" class="popup__item popup__item_name" value=" " required>
-                <input type="text" class="popup__item popup__item_job" value=" " required>
-                <button class="popup__save link-effektt" type="button">Сохранить</button>
+                <input type="text" class="popup__input popup__input_name" value=" " required placeholder="Имя">
+                <input type="text" class="popup__input popup__input_job" value=" " required placeholder="Род занятий">
+                <button class="popup__save link-effektt" type="submit">Сохранить</button>
 			</form>
 		</div>
 	</div>
