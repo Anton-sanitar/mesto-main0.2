@@ -1,11 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/effektts/_close/effektt_close.css);
-@import url(../blocks/effektts/_save/effektt_save.css);
-@import url(../blocks/effektts/_edit/effektt_edit.css);
-@import url(../blocks/effektts/_add/effektt_add.css);
-@import url(../blocks/effektts/_like/effektt_like.css);
+@import url(../blocks/effektts/__close/effektt__close.css);
+@import url(../blocks/effektts/__save/effektt__save.css);
+@import url(../blocks/effektts/__edit/effektt__edit.css);
+@import url(../blocks/effektts/__add/effektt__add.css);
+@import url(../blocks/effektts/__like/effektt__like.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
