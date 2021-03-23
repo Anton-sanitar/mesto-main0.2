@@ -1,11 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/effektts/__close/effektt__close.css);
-@import url(../blocks/effektts/__save/effektt__save.css);
-@import url(../blocks/effektts/__edit/effektt__edit.css);
-@import url(../blocks/effektts/__add/effektt__add.css);
-@import url(../blocks/effektts/__like/effektt__like.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);

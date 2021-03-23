@@ -13,6 +13,10 @@
     padding: 7px;
 }
 
+.profile__edit:hover {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 767px) {
  
    .profile__edit {
