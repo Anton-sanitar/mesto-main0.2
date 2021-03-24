@@ -3,9 +3,9 @@ let formElementName = document.querySelector('.popup__input_name_input');
 let formElementJob = document.querySelector('.popup__input_job_input');
 let nameInput = document.querySelector('.profile__name');
 let jobInput = document.querySelector('.profile__job');
-let save = document.querySelector('.popup__save');
 let edit = document.querySelector('.profile__edit'); 
 let close = document.querySelector('.popup__close');
+let popupForm = document.querySelector('.popup__form');
 
 
 let openPopup = function () {
@@ -14,23 +14,13 @@ let openPopup = function () {
 	formElementJob.value = jobInput.textContent;
 }
 
-edit.addEventListener('click', function () {
-	openPopup();
-});
+edit.addEventListener('click', openPopup);
 
 let closePopup = function () {
 	popup.classList.remove('popup_open');
 }
 
-close.addEventListener('click', function () { 
-	closePopup();
-});
-
-if (evt.keyCode === 13) {
-	nameInput.textContent = formElementName.value; 
-	jobInput.textContent = formElementJob.value;
-	closePopup();
-};
+close.addEventListener('click', closePopup);
 
 function formSubmitHandler(evt) {
     evt.preventDefault();
@@ -39,4 +29,4 @@ function formSubmitHandler(evt) {
 	closePopup();
 };
 
-save.addEventListener('submit', formSubmitHandler);
+popupForm.addEventListener('submit', formSubmitHandler);
