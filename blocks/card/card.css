@@ -1,6 +1,7 @@
 .card {
 	display: flex;
     flex-direction: column;
-	max-width: 282px;
-	font-family: 'Inter', Arial, sans-serif;
+    position: relative;
+    max-width: 282px;
+    font-family: 'Inter', Arial, sans-serif;
 }
