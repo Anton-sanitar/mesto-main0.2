@@ -110,7 +110,7 @@ function addCard(сardName, сardLink) {
 
 };
 
-for (var i = 0; i < initialCards.length; i++) {
+for (let i = 0; i < initialCards.length; i++) {
 	addCard(initialCards[i].name, initialCards[i].link);
 }
 
