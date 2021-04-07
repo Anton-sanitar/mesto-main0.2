@@ -26,18 +26,18 @@ const initialCards = [
 ]; 
 let popupEditProfile = document.querySelector('.popup_edit_profile');
 let popupAddCards = document.querySelector('.popup_add_cards');
-let formElementName = document.querySelector('.popup__input_name_profile_input'); 
+let formElementName = document.querySelector('.popup__input_name_input'); 
 let formElementJob = document.querySelector('.popup__input_job_input'); 
 let nameInput = document.querySelector('.profile__name'); 
 let jobInput = document.querySelector('.profile__job'); 
 let edit = document.querySelector('.profile__edit');
-let addCards = document.querySelector('.profile__add_card');
+let addCards = document.querySelector('.profile__add');
 let saveCard = document.querySelector('.popup__save_card');
 let close = document.querySelectorAll('.popup__close'); 
 let popupFormEditProfile = document.querySelector('.popup__form_edit_profile');
 let popupFormAddCards = document.querySelector('.popup__form_add_cards');
 let cardsContainer = document.querySelector('.cards');
-let formCardName = document.querySelector('.popup__input_name_input');  
+let formCardName = document.querySelector('.popup__input_title_input');  
 let formCardLink = document.querySelector('.popup__input_link_input');
 //let popupImg = document.querySelector('.popup_open_img');
 
