@@ -31,14 +31,14 @@ let formElementJob = document.querySelector('.popup__input_job_input');
 let nameInput = document.querySelector('.profile__name'); 
 let jobInput = document.querySelector('.profile__job'); 
 let edit = document.querySelector('.profile__edit');
-let addCards = document.querySelector('.cards__add');
+let addCards = document.querySelector('.profile__add_card');
 let saveCard = document.querySelector('.popup__save_card');
 let close = document.querySelectorAll('.popup__close'); 
 let popupFormEditProfile = document.querySelector('.popup__form_edit_profile');
 let popupFormAddCards = document.querySelector('.popup__form_add_cards');
 let cardsContainer = document.querySelector('.cards');
-let formCardName = document.querySelector('.popup__input_сard_name');  
-let formCardLink = document.querySelector('.popup__input_сard_link'); 
+let formCardName = document.querySelector('.popup__input_name_input');  
+let formCardLink = document.querySelector('.popup__input_link_input');
 //let popupImg = document.querySelector('.popup_open_img');
 
 

@@ -1,4 +1,4 @@
-.cards__add {
+.profile__add_card {
 	width: 150px;
 	height: 50px;
     background-color: rgb(0 0 0 / 0%);
@@ -9,13 +9,13 @@
     margin-left: auto;
 }
 
-.cards__add:hover {
+.profile__add_card:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
  
-    .cards__add {
+    .profile__add_card {
 		width: 282px;
 		margin: 0 auto;
 	}
