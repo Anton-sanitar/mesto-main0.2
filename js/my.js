@@ -26,7 +26,7 @@ const initialCards = [
 ]; 
 let popupEditProfile = document.querySelector('.popup_edit_profile');
 let popupAddCards = document.querySelector('.popup_add_cards');
-let formElementName = document.querySelector('.popup__input_name_input');  
+let formElementName = document.querySelector('.popup__input_name_profile_input'); 
 let formElementJob = document.querySelector('.popup__input_job_input'); 
 let nameInput = document.querySelector('.profile__name'); 
 let jobInput = document.querySelector('.profile__job'); 
