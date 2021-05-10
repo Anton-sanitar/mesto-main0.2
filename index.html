@@ -44,8 +44,10 @@
 			<button type="button" class="popup__close"></button>
 			<h2 class="popup__title">Редактировать профиль</h2>
 			<form class="popup__form popup__form_edit_profile" name="form">
-                <input type="text" class="popup__input popup__input_name_input" name="name" required placeholder="Имя">
-                <input type="text" class="popup__input popup__input_job_input" name="job" required placeholder="Род занятий">
+                <input type="text" class="popup__input popup__input_name_input" id="name-input" name="name" required placeholder="Имя" minlength="2" maxlength="40" required>
+                <span class="popup__input-error name-input-error"></span>
+                <input type="text" class="popup__input popup__input_job_input" id="job-input" name="job" required placeholder="Род занятий" required minlength="2" maxlength="200">
+                <span class="popup__input-error job-input-error"></span>
                 <button class="popup__save" type="submit">Сохранить</button>
 			</form>
 		</div>
@@ -55,8 +57,10 @@
 			<button type="button" class="popup__close"></button>
 			<h2 class="popup__title">Новое место</h2>
 			<form class="popup__form popup__form_add_cards" name="form">
-                <input type="text" class="popup__input popup__input_title_input" name="name" required placeholder="Название">
-                <input type="text" class="popup__input popup__input_link_input" name="job" required placeholder="Ссылка на картинку">
+                <input type="text" class="popup__input popup__input_title_input" id="title-input" name="title" minlength="2" maxlength="30" required placeholder="Название">
+                <span class="popup__input-error title-input-error"></span>
+                <input class="popup__input popup__input_link_input" id="url-input" type="url" name="job" required placeholder="Ссылка на картинку">
+                <span class="popup__input-error url-input-error"></span>
                 <button class="popup__save popup__save_card" type="submit">Создать</button>
 			</form>
 		</div>
