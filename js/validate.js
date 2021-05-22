@@ -23,8 +23,10 @@ const checkInputValidity = (formElement, inputElement, options) => {
 const toggleButtonState = (inputList, buttonElement, options) => {
    if (hasInvalidInput(inputList)) {
     buttonElement.classList.add(options.inactiveButtonClass);
+    buttonElement.setAttribute('disabled', true);
   } else {
     buttonElement.classList.remove(options.inactiveButtonClass);
+    buttonElement.removeAttribute('disabled');
   }
 }
 
@@ -62,9 +64,9 @@ const enableValidation = (options) => {
 
 enableValidation({
 	formSelector: '.popup__form',
-  	inputSelector: '.popup__input',
-  	submitButtonSelector: '.popup__save',
-  	inactiveButtonClass: 'popup__save_inactive_button',
-  	inputErrorClass: 'popup__input_type_error',
-  	errorClass: 'popup__input-error_active'
+  inputSelector: '.popup__input',
+  submitButtonSelector: '.popup__save',
+  inactiveButtonClass: 'popup__save_inactive_button',
+  inputErrorClass: 'popup__input_type_error',
+  errorClass: 'popup__input-error_active'
 });
