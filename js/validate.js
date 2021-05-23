@@ -28,13 +28,12 @@ const toggleButtonState = (inputList, buttonElement, options) => {
     buttonElement.classList.remove(options.inactiveButtonClass);
     buttonElement.removeAttribute('disabled');
   }
+  console.log('111');
 }
 
 const setEventListeners = (formElement, options) => {
   const inputList = Array.from(formElement.querySelectorAll(options.inputSelector));
   const buttonElement = formElement.querySelector(options.submitButtonSelector);
-
-  toggleButtonState(inputList, buttonElement, options);
 
   inputList.forEach((inputElement) => {
     inputElement.addEventListener('input', function () {

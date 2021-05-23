@@ -81,6 +81,10 @@ function closeByEscape(evt) {
 edit.addEventListener('click', openEditProfile);
 
 buttonAddCards.addEventListener('click', function() {
+	formCardName.value = "";
+	formCardLink.value = "";
+    saveCard.classList.add('popup__save_inactive_button');
+    saveCard.setAttribute('disabled', true);
 	openPopup(popupAddCards);
 });
 
@@ -153,8 +157,6 @@ for (let i = 0; i < initialCards.length; i++) {
 function addCard (evt) {
 	evt.preventDefault();
 	renderCard(formCardName.value, formCardLink.value);
-	formCardName.value = "";
-	formCardLink.value = "";
 	closePopup(popupAddCards);
 };
 
